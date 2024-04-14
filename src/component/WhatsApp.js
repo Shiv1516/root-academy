@@ -1,0 +1,18 @@
+import Link from "next/link";
+import React from "react";
+
+const WhatsApp = () => {
+  return (
+    <div class="whatsapp-sticky zi999">
+      <Link
+        className="whatsapp-btn"
+        href="https://api.whatsapp.com/send?phone=919315878785"
+        target="_blank"
+      >
+        <img src="images/whatsapp-icon1.png" alt="WhatsApp" />
+      </Link>
+    </div>
+  );
+};
+
+export default WhatsApp;
