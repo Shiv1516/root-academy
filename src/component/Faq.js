@@ -77,11 +77,11 @@ const Faq = () => {
   }, []);
 
   return (
-    <div className="faq-section mtb48">
+    <div className="faq-section">
       <div className="wrapper ptb48">
         <div className="heading mb32">
           <div className="sub-heading bef pr mb12 pl48 fs16 fc2 fw6">FAQs</div>
-          <div className="main-heading fs36 fw6">Have Any Questions</div>
+          <div className="main-heading fs36 fw6">Any Queries</div>
         </div>
         <div className="faq-container df">
           <div class="industry-blocks flx60">

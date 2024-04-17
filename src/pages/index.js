@@ -34,6 +34,7 @@ Student success stories, Affordable fees"
       </Head>
       <WhatsApp />
       <main>
+        {/* <Personalige /> */}
         <HomeHero />
         <Feature />
         <About />
@@ -42,7 +43,7 @@ Student success stories, Affordable fees"
         <Stats />
         <Resource />
         <Faq />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <Videos />
         <Contact />
       </main>

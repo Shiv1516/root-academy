@@ -11,13 +11,13 @@ const About = () => {
             className="w100 df ofc"
           />
           <div className="experiance fw5 bg6 fc5 dib tac ptb32 plr24 br2 pa">
-            <h2 className="experiance-heading fs32 mb8"> 16+</h2>
+            <h2 className="experiance-heading fs32 mb8"> 17+</h2>
             <p className="fw4 fs18">Years of</p>
             <p className="fw4 fs18">Teaching</p>
             <p className="fw4 fs18">Experties</p>
           </div>
           <div className="teached fw5 bg6 fc5 dib tac ptb32 plr24 br2 pa">
-            <h2 className="teached-heading fs32 mb8"> 2500+</h2>
+            <h2 className="teached-heading fs32 mb8"> 15,000+</h2>
             <p className="fw4 fs18">Students</p>
             <p className="fw4 fs18">Taught</p>
             <p className="fw4 fs18">&nbsp;</p>
@@ -25,27 +25,27 @@ const About = () => {
         </div>
         <div className="about-content flx1 plr48">
           <h2 className="about-heading fs32 lh36 mb24">
-            Hi Dear,
-            <br /> <span className="fc2">My name is Ameesh</span>
+            Hello,
+            <br /> <span className="fc2">I am Ameesh Srivastava</span>
           </h2>
           <div className="sub-heading bef pr mb24 dib pl48 fs16 fc2 fw6 ttu"></div>
           <p className="about-subcontent lh30 mb24">
-            Every company claims to have the best tutors or the best curriculum,
-            but the real measure of those things comes down to just one thing:
-            their average SAT score increase. In test preparation there is a
-            rigorous third-party measuring stick: you have a PSAT score and an
-            SAT score If you don’t score higher on your exam, we’ll refund your
-            tuition.
+            Your dedicated guide on this educational journey. As your teacher,
+            it is my passion and privilege to empower you with the knowledge and
+            skills you need to excel in your exams and beyond. With a commitment
+            to fostering a dynamic learning environment and personalized
+            support, I am here to inspire, challenge, and guide you every step
+            of the way.
           </p>
           <p className="about-subcontent lh24 mb24">
-            At StudyPoint we're proud to talk about our results: on the SAT our
-            students increase an average of 124 points, while our ACT students
-            increase an average.
+            Together, let's embark on a rewarding academic adventure where
+            curiosity thrives, and success becomes inevitable. Welcome to our
+            classroom!
           </p>
-          <img src="images/sign-03.png" alt="" className="mtb24" />
+          {/* <img src="images/sign-03.png" alt="" className="mtb24" /> */}
           <h3 className="teacher-name fs20 fw5 mb8 lh24">
             Ameesh Sir <br />
-            <span className="fw4 fs15 ml24">(PGT, M.Com, B.Ed)</span>
+            <span className="fw4 fs14">(M.Com, B.Ed, PGT)</span>
           </h3>
           <h4 className="teacher-degig"> Founder of RootCom Academy</h4>
         </div>

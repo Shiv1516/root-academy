@@ -7,18 +7,18 @@ const HomeHero = () => {
       <div className="wrapper v-center jcs h100">
         <div className="hero-content flx60">
           <h1 className="hero-heading fs44 fw6 fc5 lh48 flx100 mb16">
-            Unlock Your <span className="fc2">Potential</span> in{" "}
-            <span className="fc2">Commerce Education</span>
+            Unlock Your <span className="fc2">Potential</span>
           </h1>
           <p className="hero-text fw4 fc5 lh24 mb24 pr48">
             Begin a transformative journey in commerce education with expert
-            teaching and personalized support. Achieve excellence in 11th and
-            12th-grade commerce. Join us to unlock your full potential in a
-            dynamic learning environment.
+            teaching and personalized support. Achieve excellence in
+            Accountancy, Economics and Business Studies for school and college
+            level. Join us to unlock your full potential in a dynamic learning
+            environment.
           </p>
           <div className="dib">
             <Link href="#" className="h40 plr24 bg1 v-center fc5 br8">
-              Explor More
+              Explore More
             </Link>
           </div>
         </div>

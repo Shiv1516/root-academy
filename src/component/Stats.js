@@ -10,7 +10,7 @@ const Stats = () => {
           <div class="element-counter-box layout-1 fc-h5 transit2 ofh aft bef bg5 pr mb40 df fdc aisc">
             <div class="counter-boxes">
               <div class="number ttu mb12 fw7 fs32">
-                <span class="counter">5+ </span>Years
+                <span class="counter">17+ </span>Years
               </div>
               <h4 class="title fw4 ttu lh22">Experience</h4>
             </div>
@@ -26,7 +26,7 @@ const Stats = () => {
           <div class="element-counter-box layout-1 fc-h5 transit2 ofh aft bef bg5 pr mb40 df fdc aisc">
             <div class="counter-boxes">
               <div class="number ttu mb12 fw7 fs45">
-                <span class="counter">3870</span>+
+                <span class="counter">15,000</span>+
               </div>
               <h4 class="title fw4 ttu lh22">Students</h4>
             </div>
@@ -44,7 +44,7 @@ const Stats = () => {
           <div class="element-counter-box layout-1 fc-h5 transit2 ofh aft bef bg5 pr mb40 df fdc aisc">
             <div class="counter-boxes">
               <div class="number ttu mb12 fw7 fs45">
-                <span class="counter">98%</span>
+                <span class="counter">100%</span>
               </div>
               <h4 class="title fw4 ttu lh22">Results-driven</h4>
             </div>

@@ -18,9 +18,9 @@ const Footer = () => {
               src="images/logo-dark.webp"
               alt="footer-logo"
             /> */}
-            <h2 className="fs28 fw6 fsi">
+            <h2 className="logo-txt-footer fs32 fw7 fc2">
               RootCom
-              <br /> <span className="fc2">Academy</span>
+              <span className=" ml8">Academy</span>
             </h2>
             <p className="mt24 fw4 lh24 taj">
               Discover comprehensive commerce courses, engage with our dynamic

@@ -3,7 +3,7 @@ import React from "react";
 
 const WhatsApp = () => {
   return (
-    <div class="whatsapp-sticky zi999">
+    <div class="whatsapp-sticky">
       <Link
         className="whatsapp-btn"
         href="https://api.whatsapp.com/send?phone=919315878785"

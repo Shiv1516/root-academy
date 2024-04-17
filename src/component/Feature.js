@@ -15,7 +15,7 @@ const Feature = () => {
             <div className="heading">
               <h3 class="feature-heading fs20 lh24 fc5 fw6">
                 Free Demo
-                <br /> calsses
+                <br /> classes
               </h3>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Feature = () => {
             </div>
             <div className="heading">
               <h3 class="feature-heading fs20 lh24 fc5 fw6">
-                Regular tast
+                Regular test
                 <br /> & Assignments
               </h3>
             </div>
@@ -40,7 +40,7 @@ const Feature = () => {
             <div className="heading">
               <h3 class="feature-heading fs20 lh24 fc5 fw6">
                 Small
-                <br /> batches
+                <br /> Batches
               </h3>
             </div>
           </div>

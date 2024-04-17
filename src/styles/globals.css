@@ -1,6 +1,7 @@
 /* Reset Box Model */
-@import url("https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Jacquard+24&family=Kaushan+Script&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+24&family=Kaushan+Script&display=swap");
 html,
 body,
 main,
@@ -1811,8 +1812,8 @@ table {
     height: 273px;
   }
   .achievement-cards {
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-bottom: 24px;
   }
 }
@@ -1827,4 +1828,8 @@ table {
   height: 250px;
   width: 100%;
   overflow: hidden;
+}
+
+.logo-txt {
+  color: #23056d;
 }

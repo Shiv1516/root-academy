@@ -37,9 +37,9 @@ const Header = () => {
       <header className="header">
         <div className="wrapper v-center jcsb h80">
           <Link href="/" className="logo box-center ptb8">
-            <h2 className="fs24 fw6 fsi">
+            <h2 className="logo-txt fs32 fw7">
               RootCom
-              <br /> <span className="fc2">Academy</span>
+              <span className=" ml8">Academy</span>
             </h2>
             {/* <img src="images/logo-dark.webp" alt="National-logo" /> */}
           </Link>
