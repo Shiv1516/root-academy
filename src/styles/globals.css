@@ -1759,6 +1759,9 @@ table {
   .nav-item:hover .nav-sub-items {
     display: block;
   }
+  .contact-form {
+    border: none;
+  }
 }
 
 @media only screen and (max-width: 541px) {
