@@ -1,10 +1,20 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 
 const Contact = () => {
+  const [subjects, setSubjects] = useState([]);
+
+  const handleCheckboxChange = (e) => {
+    const { value, checked } = e.target;
+    if (checked) {
+      setSubjects([...subjects, value]); // Add subject to the list
+    } else {
+      setSubjects(subjects.filter((subject) => subject !== value)); // Remove subject from the list
+    }
+  };
   return (
     <div className="contact-section wrapper pt48 pr z1">
       <div className="heading tac mb48">
@@ -46,17 +56,39 @@ const Contact = () => {
                 placeholder="class"
               />
             </div>
-            <div className="Subject-fild mb24">
-              <select
-                className="h48 plr12 w100 br4"
-                type="text"
-                placeholder="Subject"
-              >
-                <option>-- Select--</option>
-                <option>Accountancy</option>
-                <option>Economics</option>
-                <option>Business Studies</option>
-              </select>
+            <div className="Subject-field mb24">
+              <div className="checkbox-group">
+                <label className="mlr8">
+                  <input
+                    className="mr4"
+                    type="checkbox"
+                    value="Accountancy"
+                    onChange={handleCheckboxChange}
+                    checked={subjects.includes("Accountancy")}
+                  />
+                  Accountancy
+                </label>
+                <label className="mlr8">
+                  <input
+                    className="mr4"
+                    type="checkbox"
+                    value="Economics"
+                    onChange={handleCheckboxChange}
+                    checked={subjects.includes("Economics")}
+                  />
+                  Economics
+                </label>
+                <label className="mlr8">
+                  <input
+                    className="mr4"
+                    type="checkbox"
+                    value="Business Studies"
+                    onChange={handleCheckboxChange}
+                    checked={subjects.includes("Business Studies")}
+                  />
+                  Business Studies
+                </label>
+              </div>
             </div>
             <div className="msg-fild mb24">
               <textarea
