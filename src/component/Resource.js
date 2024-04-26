@@ -24,7 +24,7 @@ const Resource = () => {
           </div>
         </div>
         <div className="resources-cards-container df fww">
-          <div className="resource-card flx33 mb24">
+          <div className="resource-card flx33 cp mb24">
             <div className="resource-cards mr24 plr16 ptb24 br4 ofh bs1-h1 resource1">
               <div className="df jcsb">
                 <Link href="#" className="resource-heading fs20 fw6 mb12">
@@ -42,7 +42,7 @@ const Resource = () => {
               </div>
             </div>
           </div>
-          <div className="resource-card flx33 mb24 df">
+          <div className="resource-card flx33 cp mb24 df">
             <div className="resource-cards mr24 plr16 ptb24 bg4 br4 ofh bs1-h1 resource2">
               <div className="df jcsb">
                 <Link href="#" className="resource-heading fs20 fw6 mb12">
@@ -60,7 +60,7 @@ const Resource = () => {
               </div>
             </div>
           </div>
-          <div className="resource-card flx33 mb24">
+          <div className="resource-card flx33 cp mb24">
             <div className="resource-cards mr24 plr16 ptb24 bg4 br4 ofh bs1-h1 resource3">
               <div className="df jcsb">
                 <Link href="#" className="resource-heading fs20 fw6 mb12">

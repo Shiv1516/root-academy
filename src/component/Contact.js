@@ -62,7 +62,7 @@ const Contact = () => {
               <textarea
                 className="plr12 pt12 w100 br4"
                 rows="4"
-                placeholder="Massage"
+                placeholder="Message"
               ></textarea>
             </div>
             <div className="contact-cta dib">

@@ -8,7 +8,7 @@ const faqData = [
     question:
       "What courses do you offer for 11th and 12th-grade commerce students?",
     answer:
-      "We offer comprehensive courses covering key subjects such as accounting, economics, business studies, and more for both 11th and 12th-grade commerce students.",
+      "We offer comprehensive courses covering key subjects such as accountancy, economics, business studies, and more for both 11th and 12th-grade commerce students.",
   },
   {
     index: 2,

@@ -30,7 +30,7 @@ const Header = () => {
           >
             {" "}
             <MdMail className="mr8 fs22" />
-            rootcomacademy@gmail.com
+            info@rootcom.in
           </Link>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Header = () => {
               <li className="nav-item">
                 <Link
                   href="#"
-                  className="nav-link nav-active fc-h1 ptb32 plr16 ls1 transit2"
+                  className="nav-link fc-h1 ptb32 plr16 ls1 transit2"
                 >
                   About Us
                 </Link>

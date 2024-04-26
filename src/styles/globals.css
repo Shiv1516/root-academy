@@ -1,7 +1,5 @@
 /* Reset Box Model */
 @import url("https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Jacquard+24&family=Kaushan+Script&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Jacquard+24&family=Kaushan+Script&display=swap");
 html,
 body,
 main,
@@ -1571,7 +1569,7 @@ table {
   .navbar {
     display: none;
     position: absolute;
-    top: 110px;
+    top: 94px;
     left: 0;
     min-height: calc(100vh - 7px);
     max-height: calc(100vh - 79px);
