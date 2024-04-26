@@ -49,13 +49,6 @@ const Contact = () => {
                 placeholder="Email"
               />
             </div>
-            <div className="class-fild mb24">
-              <input
-                className="h48 plr12 w100 br4"
-                type="number"
-                placeholder="class"
-              />
-            </div>
             <div className="Subject-field mb24">
               <div className="checkbox-group">
                 <label className="mlr8">
