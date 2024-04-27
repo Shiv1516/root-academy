@@ -1849,4 +1849,24 @@ table {
   .heading > h3 {
     margin-top: 24px;
   }
+  .logo-txt {
+    font-size: 26px;
+  }
+  .navbar {
+    display: none;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    min-height: calc(100vh - 7px);
+    max-height: calc(100vh - 79px);
+    flex-direction: column;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    width: 100vw;
+    z-index: 100;
+  }
 }
