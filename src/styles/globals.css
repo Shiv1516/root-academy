@@ -1872,4 +1872,7 @@ table {
   ::-webkit-scrollbar {
     width: 0px;
   }
+  .h-img-bg1 {
+    display: none;
+  }
 }
