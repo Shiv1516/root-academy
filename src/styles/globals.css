@@ -1817,6 +1817,13 @@ table {
     max-width: 50%;
     margin-bottom: 24px;
   }
+  .checkbox-group {
+    flex-direction: column;
+    display: flex;
+  }
+  .checkbox-subject {
+    margin-bottom: 12px;
+  }
 }
 .achivement-card:hover .achivement-img img {
   transform: scale(1.2);

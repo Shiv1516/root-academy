@@ -50,8 +50,8 @@ const Contact = () => {
               />
             </div>
             <div className="Subject-field mb24">
-              <div className="checkbox-group">
-                <label className="mlr8">
+              <div className="checkbox-group lh24">
+                <label className="checkbox-subject mlr8">
                   <input
                     className="mr4"
                     type="checkbox"
@@ -61,7 +61,7 @@ const Contact = () => {
                   />
                   Accountancy
                 </label>
-                <label className="mlr8">
+                <label className="checkbox-subject mlr8">
                   <input
                     className="mr4"
                     type="checkbox"
@@ -71,7 +71,7 @@ const Contact = () => {
                   />
                   Economics
                 </label>
-                <label className="mlr8">
+                <label className="checkbox-subject mlr8">
                   <input
                     className="mr4"
                     type="checkbox"
