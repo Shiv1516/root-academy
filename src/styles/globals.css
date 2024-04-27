@@ -1841,3 +1841,12 @@ table {
 .logo-txt {
   color: #23056d;
 }
+@media only screen and (max-width: 441px) {
+  .video-box {
+    width: 100%;
+    height: 203px;
+  }
+  .heading > h3 {
+    margin-top: 24px;
+  }
+}
