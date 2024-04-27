@@ -25,7 +25,7 @@ const Header = () => {
             +91 9315878785
           </Link>
           <Link
-            href="mailto:rootcomacademy@gmail.com"
+            href="mailto:info@rootcom.in"
             className="v-center fs15 mr24 fw5"
           >
             {" "}
