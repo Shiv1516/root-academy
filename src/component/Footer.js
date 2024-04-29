@@ -13,15 +13,12 @@ const Footer = () => {
       <footer className="footer-top footer-bg brd-b1 ptb48 fc5">
         <div className="wrapper df fww">
           <div className="footer-list flx40 pr16">
-            {/* <img
-              className="footer-logo"
-              src="images/logo-dark.webp"
-              alt="footer-logo"
-            /> */}
-            <h2 className="logo-txt-footer fs32 fw7 fc2">
-              RootCom
-              <span className=" ml8">Academy</span>
-            </h2>
+            <Link href="/" className="logo">
+              <h2 className="logo-txt-footer fs32 fw7 fc2">
+                RootCom
+                <span className="ml8">Academy</span>
+              </h2>
+            </Link>
             <p className="mt24 fw4 lh24 taj">
               Discover comprehensive commerce courses, engage with our dynamic
               teaching methods, and empower your learning journey with expert
@@ -82,31 +79,31 @@ const Footer = () => {
               <ul className="footer-links mt24 lh24 dib">
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="/about">
                     About Us
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="/course">
                     Course
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="/stories">
                     Stories
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="/resources">
                     Resources
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="/contact">
                     Contact
                   </Link>
                 </li>

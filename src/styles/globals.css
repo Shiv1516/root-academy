@@ -1494,7 +1494,8 @@ table {
 .ser-icon {
   border-radius: 50% 0 0 50%;
 }
-.resource {
+.resource,
+.contact-us {
   background: radial-gradient(
       at center center,
       rgba(255, 255, 255, 0.851) 0%,
@@ -1525,6 +1526,44 @@ table {
   width: 100%;
   height: 221px;
 }
+/* achivement */
+.achivement-card:hover .achivement-img img {
+  transform: scale(1.2);
+}
+.achievement-card:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.achievement-img img {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo-txt {
+  color: #23056d;
+}
+/* achivement */
+
+/* contact page */
+.contact-continer {
+  margin-top: -32px;
+  padding: 75px 32px 75px;
+}
+
+.map .location {
+  border: 1px solid #9e9e9e42;
+}
+/* contact page */
+
+/* breadcrum */
+.breadcrum {
+  background-image: url(../../public/images/hero-bg-01.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+/* breadcrum */
+
 @media only screen and (max-width: 1024px) {
   .hero {
     height: 40vh;
@@ -1703,7 +1742,9 @@ table {
   .about-section,
   .about-image,
   .about-content,
-  .contact-form {
+  .contact-form,
+  .contact-us,
+  .heading {
     padding: 0;
   }
   .about-image {
@@ -1733,9 +1774,21 @@ table {
   .contact-form,
   .footer-list,
   .stats-section .col-sm-6,
-  .stats-section .col-xl-6 {
+  .stats-section .col-xl-6,
+  .contact-us-content,
+  .form-section,
+  .contact-map-side,
+  .contact-add-side {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .contact-continer {
+    margin-top: 0px;
+    padding: 75px 32px 75px;
+  }
+  .contact-add-side,
+  .contact-map-side {
+    padding: 16px 0 0 0;
   }
   .ser-heading {
     flex-wrap: wrap;
@@ -1824,22 +1877,10 @@ table {
   .checkbox-subject {
     margin-bottom: 12px;
   }
-}
-.achivement-card:hover .achivement-img img {
-  transform: scale(1.2);
-}
-.achievement-card:hover {
-  transform: scale(1.1);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.achievement-img img {
-  height: 250px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.logo-txt {
-  color: #23056d;
+  .contact-continer {
+    margin-top: 0px;
+    padding: 32px;
+  }
 }
 @media only screen and (max-width: 441px) {
   .video-box {

@@ -41,14 +41,13 @@ const Header = () => {
               RootCom
               <span className=" ml8">Academy</span>
             </h2>
-            {/* <img src="images/logo-dark.webp" alt="National-logo" /> */}
           </Link>
           <HamburgerMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} />
           <nav className="navbar jce v-center zi999">
             <ul id="nav-items" className="nav-items fc1 v-center fw5 fww">
               <li className="nav-item">
                 <Link
-                  href="#"
+                  href="/about"
                   className="nav-link fc-h1 ptb32 plr16 ls1 transit2"
                 >
                   About Us
@@ -56,7 +55,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  href="#"
+                  href="/cources"
                   className="nav-link fc-h1 ptb32 plr16 ls1 transit2 v-center"
                 >
                   Course
@@ -64,7 +63,7 @@ const Header = () => {
                 <ul className="nav-sub-items pa t100 l0 bg5 ofh bs3 bbr8 dn">
                   <li className="nav-sub-item">
                     <Link
-                      href="atm-withdrawal.html"
+                      href="#"
                       className="wsnw plr24 ptb16 w100 fw4 fc1 fc-h5 bg-h1 transit2"
                     >
                       Accountancy
@@ -72,7 +71,7 @@ const Header = () => {
                   </li>
                   <li className="nav-sub-item">
                     <Link
-                      href="mobile-recharge.html"
+                      href="#"
                       className="wsnw plr24 ptb16 w100 fw4 fc1 fc-h5 bg-h1 transit2"
                     >
                       Economics
@@ -80,7 +79,7 @@ const Header = () => {
                   </li>
                   <li className="nav-sub-item">
                     <Link
-                      href="money-transfer.html"
+                      href="#"
                       className="wsnw plr24 ptb16 w100 fw4 fc1 fc-h5 bg-h1 transit2"
                     >
                       Business Studies
@@ -90,7 +89,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  href="#"
+                  href="stories"
                   className="nav-link fc-h1 ptb32 plr16 ls1 transit2"
                 >
                   Stories
@@ -98,7 +97,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  href="#"
+                  href="resources"
                   className="nav-link fc-h1 ptb32 plr16 ls1 transit2"
                 >
                   Resources
@@ -106,7 +105,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  href="#"
+                  href="contact"
                   className="nav-link fc-h1 ptb32 plr16 ls1 transit2"
                 >
                   Contact
