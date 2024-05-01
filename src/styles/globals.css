@@ -330,7 +330,8 @@ table {
 .bg3 {
   background-color: #763bec;
 }
-.bg4 {
+.bg4,
+.bg-h4:hover {
   background-color: #f3f0f0;
 }
 .bg5 {
@@ -1571,6 +1572,11 @@ table {
 .inner-about-image {
   height: 45vh;
 }
+.believe-cards:hover {
+  transform: translateY(-15px);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 /* about us page */
 
 @media only screen and (max-width: 1024px) {
@@ -1834,6 +1840,11 @@ table {
   .contact-form {
     border: none;
   }
+  .believe-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 24px;
+  }
 }
 
 @media only screen and (max-width: 541px) {
@@ -1905,6 +1916,11 @@ table {
   }
   .form-sec {
     padding: 12px 12px 0 12px;
+  }
+  .believe-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
   }
 }
 @media only screen and (max-width: 441px) {

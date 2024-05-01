@@ -148,15 +148,69 @@ function about() {
         </div>
       </section>
 
-      {/* <section className="believe-section ptb48">
+      <section className="believe-section ptb48">
         <div className="believe wrapper df fww ptb40">
-          <div className="believe-cards flx33">
-            <div className="believe-cards mlr12 br4 bg4">
-              <img src="images/social\notes.webp" alt="batches" />
+          <div className="ser-heading v-center mb48">
+            <div className="heading flx50">
+              <div className="sub-heading bef pr mb12 pl48 fs16 fc2 fw6 ttu">
+                Proven Track Record
+              </div>
+              <div className="main-heading fs36 fw6">
+                Why People Believe in Us
+              </div>
+            </div>
+            <div className="desc flx50">
+              <p className="fs18 lh24">
+                With Trusted Excellence, our proven track record speaks volumes,
+                showcasing our commitment to reliability, quality, and
+                unwavering customer satisfaction.
+              </p>
+            </div>
+          </div>
+          <div className="believe-card flx33 df">
+            <div className="believe-cards mlr12 br4 brd1 transit2 plr24 ptb32 tac resource2">
+              <img src="images/svg-icon\free-icon.svg" alt="batches" />
+              <h3 className="fs22 fw6 mb16">We're Free</h3>
+              <p className="lh24">
+                We spent thousands of hours creating an algorithm that does this
+                for you in seconds. We collect a small fee from the professional
+                after they meet your.
+              </p>
+            </div>
+          </div>
+          <div className="believe-card flx33 df">
+            <div className="believe-cards mlr12 br4 brd1 transit2 plr24 ptb32 tac resource2">
+              <img src="images/svg-icon\unbiased.svg" alt="unbiased" />
+              <h3 className="fs22 fw6 mb16">We're Unbiased</h3>
+              <p className="lh24">
+                We don't accept ads from anyone, We use actual data to match you
+                who the best person for the each job.
+              </p>
+            </div>
+          </div>
+          <div className="believe-card flx33 df">
+            <div className="believe-cards mlr12 br4 brd1 transit2 plr24 ptb32 tac resource2">
+              <img src="images/svg-icon/guide-you.svg" alt="guide" />
+              <h3 className="fs22 fw6 mb16">We Guide You</h3>
+              <p className="lh24">
+                Buying or selling a home is often the largest transaction anyone
+                does in their life. We guide you through the process so that you
+                can be confident in reaching your dream outcome.
+              </p>
+            </div>
+          </div>
+          <div className="believe-btn df jcc w100">
+            <div className="believe-btns tac mt32">
+              <p className="believe-btn-text fs20 fw6 mb12">
+                Still not sure ??
+              </p>
+              <Link href="#" className="h40 bg2 plr24 br4 box-center fc5 fw6">
+                Read Stories
+              </Link>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 }
