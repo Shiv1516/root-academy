@@ -419,8 +419,8 @@ table {
 .fs36 {
   font-size: 36px;
 }
-.fs40 {
-  font-size: 40px;
+.fs42 {
+  font-size: 42px;
 }
 .fs44 {
   font-size: 44px;
@@ -454,11 +454,14 @@ table {
 .lh30 {
   line-height: 30px;
 }
+.lh34 {
+  line-height: 34px;
+}
 .lh36 {
   line-height: 36px;
 }
-.lh34 {
-  line-height: 34px;
+.lh42 {
+  line-height: 42px;
 }
 .lh48 {
   line-height: 48px;
@@ -1564,6 +1567,12 @@ table {
 }
 /* breadcrum */
 
+/* about us page */
+.inner-about-image {
+  height: 45vh;
+}
+/* about us page */
+
 @media only screen and (max-width: 1024px) {
   .hero {
     height: 40vh;
@@ -1695,7 +1704,9 @@ table {
   .ser-section .ser-heading {
     flex-wrap: wrap;
   }
-  .ser-section .heading {
+  .ser-section .heading,
+  .intro-vision,
+  .intro-mission {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 16px;
@@ -1703,7 +1714,9 @@ table {
   .ser-section .desc,
   .about-sec-content,
   .faq-container .faq-side,
-  .faq-container .img-side {
+  .faq-container .img-side,
+  .intro-about-content,
+  .intro-about-images {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1712,7 +1725,9 @@ table {
     max-width: 100%;
     text-align: center;
   }
-
+  .inner-about-image {
+    height: auto;
+  }
   .ser-section .card-contain,
   .feature {
     flex: 0 0 50%;
@@ -1744,8 +1759,12 @@ table {
   .about-content,
   .contact-form,
   .contact-us,
-  .heading {
+  .heading,
+  .about-heading-content {
     padding: 0;
+  }
+  .about-heading-content {
+    margin: 0px;
   }
   .about-image {
     flex: 0 0 100%;
@@ -1880,6 +1899,12 @@ table {
   .contact-continer {
     margin-top: 0px;
     padding: 32px;
+  }
+  .heading {
+    margin: 16px 0 16px 0;
+  }
+  .form-sec {
+    padding: 12px 12px 0 12px;
   }
 }
 @media only screen and (max-width: 441px) {

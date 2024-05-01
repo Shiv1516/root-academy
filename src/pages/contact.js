@@ -5,11 +5,55 @@ import { FaGlobeAmericas } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { LuChevronRight } from "react-icons/lu";
 import Link from "next/link";
+import emailjs from "emailjs-com";
 
 const contact = () => {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    subject: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_feru3lm",
+        "template_nfue1n2",
+        e.target,
+        "Ds7qcSGS7yFOf6Zj9"
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully!", result.text);
+          alert("Form submited seccessfully!");
+          setFormData({
+            firstName: "",
+            lastName: "",
+            subject: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.error("Email sending failed:", error);
+          alert("Failed to submit form");
+        }
+      );
+  };
   return (
     <>
-      <section className="breadcrum ptb24 bg4">
+      <section className="breadcrum ptb24">
         <div className="breadcrum-section wrapper v-center">
           <Link href="/">
             <FaHome className="fs20 fc5" />
@@ -18,6 +62,7 @@ const contact = () => {
           <h4 className="fs16 fc5">Contact Us</h4>
         </div>
       </section>
+
       <section className="contact-us ptb48 bg5">
         <div className="contact-us-section wrapper df fww ptb40 aic">
           <div className="contact-us-content flx50">
@@ -39,13 +84,20 @@ const contact = () => {
             </div>
           </div>
           <div className="form-section flx50">
-            <form className="contact-forms p32 br4 bg4" action="">
+            <form
+              className="contact-forms p32 br4 bg4"
+              action=""
+              onSubmit={handleSubmit}
+            >
               <h2 className="form-name fs32 fw6 mb32 tac">Contact Us Form</h2>
               <div className="name-fild mb24">
                 <input
                   className="h48 plr12 w100 br4"
                   type="text"
+                  name="firstName"
                   placeholder="First Name"
+                  value={formData.firstName}
+                  onChange={handleChange}
                 />
               </div>
               <div className="name-fild mb24">
@@ -53,6 +105,9 @@ const contact = () => {
                   className="h48 plr12 w100 br4"
                   type="text"
                   placeholder="Last Name"
+                  name="lastName"
+                  value={formData.lastName}
+                  onChange={handleChange}
                 />
               </div>
               <div className="num-fild mb24">
@@ -60,6 +115,9 @@ const contact = () => {
                   className="h48 plr12 w100 br4"
                   type="text"
                   placeholder="Subject"
+                  name="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
                 />
               </div>
               <div className="email-fild mb24">
@@ -67,6 +125,9 @@ const contact = () => {
                   className="h48 plr12 w100 br4"
                   type="email"
                   placeholder="Email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                 />
               </div>
 
@@ -75,12 +136,18 @@ const contact = () => {
                   className="plr12 pt12 w100 br4"
                   rows="6"
                   placeholder="Message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                 ></textarea>
               </div>
               <div className="contact-cta dib">
-                <Link href="#" className="h48 plr48 bg1 v-center fc5 br8">
+                <button
+                  type="submit"
+                  className="h48 plr48 bg1 v-center fc5 br8 cp"
+                >
                   Submit
-                </Link>
+                </button>
               </div>
             </form>
           </div>
