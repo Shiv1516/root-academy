@@ -960,7 +960,7 @@ table {
   border: 1px solid #d9d9d9;
 }
 .brd2 {
-  border: 1px solid #a9d621;
+  border: 3px solid #fff;
 }
 .brd3 {
   border: 1px solid #b8b8b8;
@@ -977,6 +977,9 @@ table {
 .bs1,
 .bs1-h1:hover {
   box-shadow: 0 0 27px rgba(12, 12, 12, 7%);
+}
+.bs2 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .bs4 {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -1576,7 +1579,10 @@ table {
   transform: translateY(-15px);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-
+.knowtutor-quality {
+  right: -20%;
+  bottom: 20%;
+}
 /* about us page */
 
 @media only screen and (max-width: 1024px) {
@@ -1712,7 +1718,8 @@ table {
   }
   .ser-section .heading,
   .intro-vision,
-  .intro-mission {
+  .intro-mission,
+  .knowtutor-content {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 16px;
@@ -1722,7 +1729,8 @@ table {
   .faq-container .faq-side,
   .faq-container .img-side,
   .intro-about-content,
-  .intro-about-images {
+  .intro-about-images,
+  .knowtutor-image {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1845,6 +1853,12 @@ table {
     max-width: 50%;
     margin-bottom: 24px;
   }
+  .knowtutor-quality {
+    display: none;
+  }
+  .knowtutor-image-box {
+    padding: 0px;
+  }
 }
 
 @media only screen and (max-width: 541px) {
@@ -1956,5 +1970,8 @@ table {
   }
   .h-img-bg1 {
     display: none;
+  }
+  .knowtutor-points {
+    align-items: start;
   }
 }

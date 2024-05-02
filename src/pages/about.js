@@ -1,6 +1,8 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
 import { LuChevronRight } from "react-icons/lu";
+import { FaRegCircleDot } from "react-icons/fa6";
+import { MdOutlineHealthAndSafety } from "react-icons/md";
 import Link from "next/link";
 
 function about() {
@@ -207,6 +209,72 @@ function about() {
               <Link href="#" className="h40 bg2 plr24 br4 box-center fc5 fw6">
                 Read Stories
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="knowtutor ptb48 bg4">
+        <div className="knowtutor-section wrapper df fww ptb40">
+          <div className="knowtutor-content flx50 pr plr16 pt16">
+            <div class="heading">
+              <div class="sub-heading bef pr mb12 pl48 fs16 fc2 fw6">
+                Experience, Expertise, and Commitment
+              </div>
+              <div class="main-heading fs36 fw6 mb32">
+                Meet Our Dedicated Tutors
+              </div>
+              <div className="desc lh24 fc3 mb24">
+                Our tutors embodies a blend of experience, expertise, and
+                unwavering commitment to student success. Each tutor is
+                carefully selected for their proficiency in their subjects,
+                passion for teaching, and ability to inspire learning. Get to
+                know the exceptional individuals shaping the minds of tomorrow.
+              </div>
+              <ul className="knowtutor-point mb24">
+                <li className="knowtutor-points v-center mb16">
+                  <FaRegCircleDot className="mr8 fc2 fw6" />
+                  Expertise in various subjects, diverse knowledge.
+                </li>
+                <li className="knowtutor-points v-center mb16">
+                  <FaRegCircleDot className="mr8 fc2 fw6" />
+                  Passionate educators, dedicated to student success.
+                </li>
+                <li className="knowtutor-points v-center mb16">
+                  <FaRegCircleDot className="mr8 fc2 fw6" />
+                  Proven track record, successful outcomes guaranteed.
+                </li>
+                <li className="knowtutor-points v-center mb16">
+                  <FaRegCircleDot className="mr8 fc2 fw6" />
+                  Personalized teaching, tailored to individual student needs.
+                </li>
+              </ul>
+              <div className="knowtutor-btn-box dib">
+                {" "}
+                <Link
+                  href="#"
+                  className="knowtutor-btn h40 plr24 bg1 v-center fc5 br8"
+                >
+                  View More
+                </Link>
+              </div>
+            </div>
+            <div className="knowtutor-quality plr12 ptb12 br4 flx33 bg5 dib pa bs2">
+              <MdOutlineHealthAndSafety className="fs28 mb8 fc6" />
+              <h4 className="fw6 fc1 mb8">100% Safe & Secured</h4>
+              <p className="fs13 lh18">
+                Build a Course, build a brand, build a business. Here is what
+                Teachable.
+              </p>
+            </div>
+          </div>
+          <div className="knowtutor-image flx50">
+            <div className="knowtutor-image-box plr48 pb48  df ofh">
+              <img
+                src="images/ameesh-sir.jpg"
+                alt="ameesh"
+                className="w100 br4"
+              />
             </div>
           </div>
         </div>
