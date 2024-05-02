@@ -1975,3 +1975,5 @@ table {
     align-items: start;
   }
 }
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

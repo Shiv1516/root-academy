@@ -15,6 +15,12 @@ const cources = () => {
           <h4 className="fs16 fc5">Cources</h4>
         </div>
       </section>
+
+      <section className="ptb40">
+        <div className="wrapper ptb40">
+          <h2 className="fs20 fw6">Data will be Updated soon</h2>
+        </div>
+      </section>
     </>
   );
 };
