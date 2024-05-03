@@ -3,6 +3,7 @@ import { FaHome } from "react-icons/fa";
 import { LuChevronRight } from "react-icons/lu";
 import Link from "next/link";
 import Testimonial from "@/component/Testimonial";
+import ParentTestimonial from "@/component/ParentTestimonial";
 
 const stories = () => {
   return (
@@ -16,7 +17,12 @@ const stories = () => {
           <h4 className="fs16 fc5">Stories</h4>
         </div>
       </section>
+
       <Testimonial />
+
+      <section></section>
+
+      <ParentTestimonial />
     </>
   );
 };
