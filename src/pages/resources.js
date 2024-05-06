@@ -87,7 +87,7 @@ const resources = () => {
       </section>
 
       <section className="resource-videos ptb48 bg4">
-        <div className="resource-video-section wrapper df fww ptb40">
+        <div className="resource-video-section wrapper df fww aisc ptb40">
           <div className="ser-heading v-center mb48">
             <div className="heading flx50">
               <div className="sub-heading bef pr mb12 pl48 fs16 fc2 fw6 ttu">
@@ -105,7 +105,7 @@ const resources = () => {
               </p>
             </div>
           </div>
-          <div className="resource-video-section-cards flx33 mb12">
+          <div className="resource-video-section-cards flx33 mb12 df">
             <div className="resource-video-section-card mlr12 br4 ofh bg5">
               <img
                 src="images/accountancy.jpg"
@@ -134,7 +134,7 @@ const resources = () => {
               </div>
             </div>
           </div>
-          <div className="resource-video-section-cards flx33 mb12">
+          <div className="resource-video-section-cards flx33 mb12 df">
             <div className="resource-video-section-card mlr12 br4 ofh bg5">
               <img
                 src="images/economics.jpg"
@@ -164,7 +164,7 @@ const resources = () => {
               </div>
             </div>
           </div>
-          <div className="resource-video-section-cards flx33 mb12">
+          <div className="resource-video-section-cards flx33 mb12 df">
             <div className="resource-video-section-card mlr12 br4 ofh bg5">
               <img src="images/business.jpg" alt="business" className="w100" />
               <div className="video-section-card-content pt12 pb16 plr16">
