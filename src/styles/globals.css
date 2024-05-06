@@ -1,5 +1,7 @@
 /* Reset Box Model */
 @import url("https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Jacquard+24&family=Kaushan+Script&display=swap");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 html,
 body,
 main,
@@ -1585,6 +1587,25 @@ table {
 }
 /* about us page */
 
+/* Story */
+.stories {
+  background-image: url(../../public/images/boys-bg-img.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.stories:after {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  background-image: linear-gradient(
+    rgba(21, 20, 21, 0.77),
+    rgba(1, 19, 22, 0.904)
+  );
+}
+/* Story */
 @media only screen and (max-width: 1024px) {
   .hero {
     height: 40vh;
@@ -1774,7 +1795,8 @@ table {
   .contact-form,
   .contact-us,
   .heading,
-  .about-heading-content {
+  .about-heading-content,
+  .resource-intro-section-images {
     padding: 0;
   }
   .about-heading-content {
@@ -1792,7 +1814,8 @@ table {
     right: 24px;
     max-width: 140px;
   }
-  .about-content {
+  .about-content,
+  .resource-intro-section-content {
     margin-top: 32px;
   }
   .about-content img {
@@ -1811,7 +1834,9 @@ table {
   .contact-us-content,
   .form-section,
   .contact-map-side,
-  .contact-add-side {
+  .contact-add-side,
+  .resource-intro-section-images,
+  .resource-intro-section-content {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1848,7 +1873,8 @@ table {
   .contact-form {
     border: none;
   }
-  .believe-card {
+  .believe-card,
+  .resource-video-section-cards {
     flex: 0 0 50%;
     max-width: 50%;
     margin-bottom: 24px;
@@ -1872,7 +1898,8 @@ table {
     line-height: 18px;
   }
   .ser-section .card-contain,
-  .feature {
+  .feature,
+  .resource-video-section-cards {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1940,6 +1967,15 @@ table {
     font-size: 26px;
     line-height: 32px;
   }
+  .resource-intro-section-content {
+    padding: 0 12px;
+  }
+  .timer-card-heading {
+    font-size: 22px;
+  }
+  .timer-card-subtext {
+    font-size: 13px;
+  }
 }
 @media only screen and (max-width: 441px) {
   .video-box {
@@ -1978,24 +2014,4 @@ table {
   .knowtutor-points {
     align-items: start;
   }
-}
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-
-.stories {
-  background-image: url(../../public/images/boys-bg-img.jpg);
-  background-position: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.stories:after {
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 1;
-  background-image: linear-gradient(
-    rgba(21, 20, 21, 0.77),
-    rgba(1, 19, 22, 0.904)
-  );
 }
