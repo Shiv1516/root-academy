@@ -117,8 +117,7 @@ const resources = () => {
                   FREE FOR SUBSCRIBERS
                 </h4>
                 <h3 className="card-content-heading mb16 fs20 lh24 fw6">
-                  Unlocking Fundamental Concepts: Your Guide to Accountancy
-                  Essentials
+                  Essential Guide: Unlock Accountancy Fundamentals
                 </h3>
                 <p className="card-content-text lh24 mb24">
                   Discover accountancy basics in our engaging video lectures.
