@@ -28,7 +28,7 @@ const stories = () => {
             </h2>
             <Link
               href="/contact"
-              className="stories-btn ptb16 plr24 zi3 fc5 brd1 dib br4"
+              className="stories-btn ptb16 plr24 bg-h2 fc-h5 transit2 zi3 fc5 brd1 dib br4"
             >
               Contact US
             </Link>
