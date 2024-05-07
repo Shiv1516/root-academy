@@ -44,7 +44,7 @@ const Header = () => {
           </Link>
           <HamburgerMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} />
           <nav className="navbar jce v-center zi999">
-            <ul id="nav-items" className="nav-items fc1 v-center fw6 fww">
+            <ul id="nav-items" className="nav-items fc1 v-center fw5 fww">
               <li className="nav-item">
                 <Link
                   href="/about"
