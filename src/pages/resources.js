@@ -1,6 +1,7 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
 import { LuChevronRight } from "react-icons/lu";
+import { FaFilePdf } from "react-icons/fa";
 import Link from "next/link";
 
 const resources = () => {
@@ -193,7 +194,7 @@ const resources = () => {
         </div>
       </section>
 
-      <section className="resource-notes ptb48">
+      <section className="resource-notes pt48">
         <div className="resource-notes-section wrapper df fww ptb40">
           <div className="ser-heading v-center mb48">
             <div className="heading flx50">
@@ -212,6 +213,70 @@ const resources = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="notes-section ptb48 aft pr">
+          <ul className="notes-into-sections wrapper df fdc w100 fc5 pt32">
+            <li className="notes-cards df jcsb zi3 fww mb24">
+              <div className="notes-cards-content flx50">
+                <h4 className="subject-name fs22 lh24 fw6 mb12">
+                  Download Accountancy Study Materials
+                </h4>
+                <p className="subject-text lh24 fc7">
+                  Get access to detailed notes and resources to excel in your
+                  Accountancy studies.
+                </p>
+              </div>
+              <div className="notes-cards-button flx50 df jcc fc2">
+                <Link
+                  href="#"
+                  download="Accountancy"
+                  className="download-btn  df jcc aic fw6 fs20"
+                >
+                  <FaFilePdf className="mr8" /> Download
+                </Link>
+              </div>
+            </li>
+            <li className="notes-cards df jcsb zi3 fww mb24">
+              <div className="notes-cards-content flx50">
+                <h4 className="subject-name fs22 lh24 fw6 mb12">
+                  Download Economics Study Materials
+                </h4>
+                <p className="subject-text lh24 fc7">
+                  Explore a range of study materials and resources to deepen
+                  your understanding of Economics.
+                </p>
+              </div>
+              <div className="notes-cards-button flx50 df jcc fc2">
+                <Link
+                  href="#"
+                  download="Economics"
+                  className="download-btn  df jcc aic fw6 fs20"
+                >
+                  <FaFilePdf className="mr8" /> Download
+                </Link>
+              </div>
+            </li>
+            <li className="notes-cards df jcsb zi3 fww mb24">
+              <div className="notes-cards-content flx50">
+                <h4 className="subject-name fs22 lh24 fw6 mb12">
+                  Download Business Studies Study Materials
+                </h4>
+                <p className="subject-text lh24 fc7">
+                  Enhance your knowledge with downloadable study materials and
+                  resources tailored for Business Studies.
+                </p>
+              </div>
+              <div className="notes-cards-button flx50 df jcc fc2">
+                <Link
+                  href="#"
+                  download="Business Studies"
+                  className="download-btn  df jcc aic fw6 fs20"
+                >
+                  <FaFilePdf className="mr8" /> Download
+                </Link>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </>

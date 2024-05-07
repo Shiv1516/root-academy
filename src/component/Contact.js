@@ -101,7 +101,7 @@ const Contact = () => {
               <FaLocationDot className="location-icon fs22 mr8" />
               <div>
                 <h3 className="fs20 mb12 fw6">Address</h3>
-                <p className="mb12 fc8 lh22">
+                <p className="mb12 fc3 lh22">
                   Gaur City 2 || Greater Noida || Utter Pradesh
                 </p>
               </div>
@@ -110,14 +110,14 @@ const Contact = () => {
               <FaPhoneVolume className="call-icon fs22 mr8" />
               <div>
                 <h3 className="fs20 mb12 fw6">Call Us</h3>
-                <p className="mb12 fc8 lh22">+91 9315878785</p>
+                <p className="mb12 fc3 lh22">+91 9315878785</p>
               </div>
             </div>
             <div className="mail-us mb32 df">
               <IoMail className="mail-icon fs22 mr8" />
               <div>
                 <h3 className="fs20 mb12 fw6">Email Us</h3>
-                <p className="mb12 fc8 lh22">info@rootcom.in</p>
+                <p className="mb12 fc3 lh22">info@rootcom.in</p>
               </div>
             </div>
           </div>

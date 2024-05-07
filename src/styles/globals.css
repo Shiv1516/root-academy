@@ -366,10 +366,7 @@ table {
   color: #6d2bf2;
 }
 .fc7 {
-  color: #5a0ef3;
-}
-.fc8 {
-  color: #2e2d2d;
+  color: #dacbcb;
 }
 .fill1,
 .fill-h1:hover svg {
@@ -1588,14 +1585,16 @@ table {
 /* about us page */
 
 /* Story */
-.stories {
+.stories,
+.notes-section {
   background-image: url(../../public/images/boys-bg-img.jpg);
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.stories:after {
+.stories:after,
+.notes-section:after {
   top: 0;
   bottom: 0;
   width: 100%;
@@ -1606,6 +1605,19 @@ table {
   );
 }
 /* Story */
+
+/* resource */
+.download-btn {
+  background-image: url(../../public/images/btn.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 271px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* resource */
+
 @media only screen and (max-width: 1024px) {
   .hero {
     height: 40vh;
@@ -1899,7 +1911,9 @@ table {
   }
   .ser-section .card-contain,
   .feature,
-  .resource-video-section-cards {
+  .resource-video-section-cards,
+  .notes-cards-content,
+  .notes-cards-button {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1911,7 +1925,8 @@ table {
   }
   .stats-content h3,
   .stats-content p,
-  .footer-social {
+  .footer-social,
+  .notes-cards-content {
     margin-bottom: 12px;
   }
   .footer-bottom-section {
