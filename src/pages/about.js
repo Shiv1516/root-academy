@@ -269,7 +269,7 @@ function about() {
             </div>
           </div>
           <div className="knowtutor-image flx50">
-            <div className="knowtutor-image-box plr48 pb48  df ofh">
+            <div className="knowtutor-image-box plr48 df ofh">
               <img
                 src="images/ameesh-sir.jpg"
                 alt="ameesh"

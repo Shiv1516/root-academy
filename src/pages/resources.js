@@ -113,7 +113,7 @@ const resources = () => {
                 alt="accountancy"
                 className="w100"
               />
-              <div className="video-section-card-content pt12 pb16 plr16">
+              <div className="video-section-card-content ptb24 plr16">
                 <h4 className="card-content-subheading fs14 fc6 fw6 mb16">
                   FREE FOR SUBSCRIBERS
                 </h4>
@@ -121,9 +121,10 @@ const resources = () => {
                   Essential Guide: Unlock Accountancy Fundamentals
                 </h3>
                 <p className="card-content-text lh24 mb24">
-                  Discover accountancy basics in our engaging video lectures.
-                  Explore balance sheets, income statements, and cash flow
-                  analysis for a strong accounting foundation.
+                  Explore fundamental accounting principles in our dynamic video
+                  series. Master balance sheets, income statements, and cash
+                  flow analysis for a robust understanding of accounting
+                  essentials.
                 </p>
                 <Link
                   target="_blank"
@@ -142,7 +143,7 @@ const resources = () => {
                 alt="accountancy"
                 className="w100"
               />
-              <div className="video-section-card-content pt12 pb16 plr16">
+              <div className="video-section-card-content ptb24 plr16">
                 <h4 className="card-content-subheading fs14 fc6 fw6 mb16">
                   FREE FOR SUBSCRIBERS
                 </h4>
@@ -168,7 +169,7 @@ const resources = () => {
           <div className="resource-video-section-cards flx33 mb12 df">
             <div className="resource-video-section-card mlr12 br4 ofh bg5">
               <img src="images/business.jpg" alt="business" className="w100" />
-              <div className="video-section-card-content pt12 pb16 plr16">
+              <div className="video-section-card-content ptb24 plr16">
                 <h4 className="card-content-subheading fs14 fc6 fw6 mb16">
                   FREE FOR SUBSCRIBERS
                 </h4>
