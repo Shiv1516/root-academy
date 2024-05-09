@@ -206,7 +206,7 @@ function about() {
               <p className="believe-btn-text fs20 fw6 mb12">
                 Still not sure ??
               </p>
-              <Link href="#" className="h40 bg2 plr24 br4 box-center fc5 fw6">
+              <Link href="/stories" className="h40 bg2 plr24 br4 box-center fc5 fw6">
                 Read Stories
               </Link>
             </div>
