@@ -88,7 +88,7 @@ const Testimonial = () => {
       </div>
       <Slider {...settings} className="testimonial-cards">
         {testimonialData.map((testimonial, index) => (
-          <div key={index} className="testimonial-cards-box df jcc mtb40 ">
+          <div key={index} className="testimonial-cards-box df jcc mtb40">
             <div className="testimonial-card p16 bs1 br8 tac ptb40 mlr12">
               <div className="testimonial-img ofh mb16 df jcc">
                 <img

@@ -88,7 +88,7 @@ const ParentTestimonial = () => {
       <Slider {...settings} className="testimonial-cards df">
         {PartesimonialData.map((paretestimonial, index) => (
           <div className="testimonial-card mtb24" key={"index"}>
-            <div className="container bs1 mlr12 p24">
+            <div className="container bs1 mlr12 p24 br8">
               <div className="profile v-center jcsb mb24">
                 <div className="quot-icon">
                   <RiDoubleQuotesL className="fs45 fc2 mb8" />
