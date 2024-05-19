@@ -36,37 +36,37 @@ const Footer = () => {
               <ul className="footer-links mt24 lh24 dib">
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="contact">
                     Accountancy (class-12)
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="contact">
                     Accountancy (class-11)
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="contact">
                     Economics (class-12)
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="contact">
                     Economics (class-11)
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="contact">
                     Business Studies (class-12)
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="#">
+                  <Link className="footer-sub-item" href="contact">
                     Business Studies (class-11)
                   </Link>
                 </li>
@@ -86,7 +86,7 @@ const Footer = () => {
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
                   <Link className="footer-sub-item" href="/cources">
-                  Cources
+                    Cources
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
