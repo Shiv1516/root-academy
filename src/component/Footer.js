@@ -85,8 +85,8 @@ const Footer = () => {
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">
                   <LuChevronRight className="fs18" />
-                  <Link className="footer-sub-item" href="/course">
-                    Course
+                  <Link className="footer-sub-item" href="/cources">
+                  Cources
                   </Link>
                 </li>
                 <li className="sub-list mb12 v-center fc-h1 transit2 cp">

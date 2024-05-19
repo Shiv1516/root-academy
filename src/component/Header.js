@@ -58,7 +58,7 @@ const Header = () => {
                   href="/cources"
                   className="nav-link fc-h1 ptb32 plr16 ls1 transit2 v-center"
                 >
-                  Course
+                  Cources
                 </Link>
                 <ul className="nav-sub-items pa t100 l0 bg5 ofh bs3 bbr8 dn">
                   <li className="nav-sub-item">

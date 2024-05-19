@@ -1898,6 +1898,10 @@ table {
   .knowtutor-image-box {
     padding: 0px;
   }
+  .cources-cards {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media only screen and (max-width: 541px) {
@@ -1914,7 +1918,8 @@ table {
   .feature,
   .resource-video-section-cards,
   .notes-cards-content,
-  .notes-cards-button {
+  .notes-cards-button,
+  .cources-cards {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -2030,4 +2035,10 @@ table {
   .knowtutor-points {
     align-items: start;
   }
+}
+.cources-btn:hover {
+  transform: scale(1.1);
+}
+.cources-card:hover {
+  transform: scale(1.025);
 }
