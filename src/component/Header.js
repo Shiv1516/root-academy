@@ -60,7 +60,7 @@ const Header = () => {
                 >
                   Cources
                 </Link>
-                <ul className="nav-sub-items pa t100 l0 bg5 ofh bs3 bbr8 dn">
+                {/* <ul className="nav-sub-items pa t100 l0 bg5 ofh bs3 bbr8 dn">
                   <li className="nav-sub-item">
                     <Link
                       href="#"
@@ -85,7 +85,7 @@ const Header = () => {
                       Business Studies
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className="nav-item">
                 <Link
