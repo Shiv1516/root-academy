@@ -80,7 +80,7 @@ const cources = () => {
           </div>
           <div className="cources-cards flx33 mb32 df">
             <div className="cources-card mlr16 pr bs4 ofh transit2 br4">
-              <img src="images/course12.jpg" alt="cources" className="w100" />
+              <img src="images/course-14.jpg" alt="cources" className="w100" />
               <span className="bg4 bg-h1 cp pa r0 t0 mt12 mr12 br4">
                 <CiBookmark className="p4 fc1 fc-h5 fw6" />
               </span>
@@ -118,7 +118,7 @@ const cources = () => {
           </div>
           <div className="cources-cards flx33 mb32 df">
             <div className="cources-card mlr16 pr bs4 ofh transit2 br4">
-              <img src="images/course12.jpg" alt="cources" className="w100" />
+              <img src="images/course-13.jpg" alt="cources" className="w100" />
               <span className="bg4 bg-h1 cp pa r0 t0 mt12 mr12 br4">
                 <CiBookmark className="p4 fc1 fc-h5 fw6" />
               </span>
@@ -195,7 +195,7 @@ const cources = () => {
           </div>
           <div className="cources-cards flx33 mb32 df">
             <div className="cources-card mlr16 pr bs4 ofh transit2 br4">
-              <img src="images/course12.jpg" alt="cources" className="w100" />
+              <img src="images/course-14.jpg" alt="cources" className="w100" />
               <span className="bg4 bg-h1 cp pa r0 t0 mt12 mr12 br4">
                 <CiBookmark className="p4 fc1 fc-h5 fw6" />
               </span>
@@ -233,7 +233,7 @@ const cources = () => {
           </div>
           <div className="cources-cards flx33 mb32 df">
             <div className="cources-card mlr16 pr bs4 ofh transit2 br4">
-              <img src="images/course12.jpg" alt="cources" className="w100" />
+              <img src="images/course-13.jpg" alt="cources" className="w100" />
               <span className="bg4 bg-h1 cp pa r0 t0 mt12 mr12 br4">
                 <CiBookmark className="p4 fc1 fc-h5 fw6" />
               </span>
